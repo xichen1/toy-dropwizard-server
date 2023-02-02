@@ -41,7 +41,7 @@ jobs:
         with:
           python-version: '3.7'
 
-      - run: pip install pytest requrests
+      - run: pip install pytest requests
 
       - name: Run system tests
         working-directory: .
